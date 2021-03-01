@@ -1,4 +1,4 @@
-# AGD: Active learning based generative design for discovery of wide band gap materials
+## AGD: Active learning based generative design for discovery of wide band gap materials
 This software package implements our developed framework AGD for materials design based on active learning. This is the official Python repository. 
 
 [Machine Learning and Evolution Laboratory](http://mleg.cse.sc.edu)<br />
