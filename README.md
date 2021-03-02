@@ -89,8 +89,13 @@ python roost-predict.py --test-path /root_path/roost/roost/examples/prepared_tra
 
 #### Screening Recovery rate test
 
+The recovery rate is measured by the overlap percentage of candidates with respect to the candidates screened out by the Oracle model
 To test the recovery rate:
 ```bash
-python screen_recover_rate.py
+python screen_recover_rate.py --Oracle_candidates_filepath '/home/glard/AML/roost/roost/examples/roost_simple_candidate_exp1_M0_0224.csv'
+--Exp2_BS_candidates_filepath '/home/glard/AML/roost/roost/examples/roost_simple_candidate_exp2_bs_M10001.csv'
+--Exp2_AL_candidates_filepath '/home/glard/AML/roost/roost/examples/roost_simple_candidate_exp2_bo_M10016.csv'
+--Exp3_BS_candidates_filepath '/home/glard/AML/roost/roost/examples/roost_simple_candidate_exp3_base.csv'
+--Exp3_AL_candidates_filepath '/home/glard/AML/roost/roost/examples/roost_simple_candidate_exp3_bo.csv'
 ```
 
